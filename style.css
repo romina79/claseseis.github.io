@@ -1,0 +1,64 @@
+.dia1,.dia2,.dia3 {
+    color: violet;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+    .dia4,.dia5 {
+    color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+    .horario1 {
+    color: violet;
+    font-size: 30px;
+ }
+    .horario2 {
+    color: aqua;
+    font-size: 30px;
+ }
+.contenido{ 
+    background-color: yellowgreen;
+    width: 100%;
+    height: 50%;
+       
+}
+
+.pie {
+    background-color: yellow;
+    height: 30%;
+}
+div {
+    border-width: 300px; color:  green;
+    background:"Contacto.html";
+    border-color: rgb(29, 97, 23);
+    text-align: center;
+    border-style: solid;
+}
+.contenedor{
+    display: flex;
+}
+.contacto {
+    flex-direction: column;
+    margin: 10px;
+}
+.horario{
+    flex-direction: column;
+    margin: 10px;
+}
+.precio {
+    flex-direction:column;
+    margin: 10px;
+}
+.compra {
+    flex-direction:column;
+    margin: 10px;
+}
+
+.reloj{
+  float: right;
+  margin: right 10px;
+  margin:left 10px; 
+  position: relative;
+  bottom: 180px;
+  
+}
